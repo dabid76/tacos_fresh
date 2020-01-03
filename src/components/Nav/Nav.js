@@ -1,37 +1,144 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import LogOutButton from '../LogOutButton/LogOutButton';
 import './Nav.css';
+import logo from '../Nav/logo.jpg'
 
-const Nav = (props) => (
-  <div className="nav">
+
+// import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+// import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+// import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+// import Table from '@material-ui/core/Table';
+// import TableBody from '@material-ui/core/TableBody';
+// import TableCell from '@material-ui/core/TableCell';
+// import TableHead from '@material-ui/core/TableHead';
+// import TableRow from '@material-ui/core/TableRow';
+
+import { Header, Icon, Menu, Segment, Sidebar, Button } from 'semantic-ui-react'
+
+import { createMuiTheme, MuiThemeProvider } from '@material-ui/core';
+
+
+
+
+const theme = createMuiTheme({
+  transitions: {
+    // So we have `transition: none;` everywhere
+    create: () => 'none',
+  },
+});
+
+class Nav extends Component {
+  
+  state = {
+  expanded: false
+}
+
+handleExpand = () => {
+  this.setState({
+      expanded: !this.state.expanded,
+      hidden: false,
+      animation: 'overlay',
+  })
+}
+
+myFunction = () => {
+  console.log('click')
+  var x = document.getElementById("nav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+
+render () {
+  return (
+    <MuiThemeProvider theme={theme}>
+
+  <div className="nav" id="nav">
     <Link to="/home">
-      <h2 className="nav-title">Prime Solo Project</h2>
+    <img src={logo} height='50px' width='50px' position='fixed' />
     </Link>
     <div className="nav-right">
-      <Link className="nav-link" to="/home">
-        {/* Show this link if they are logged in or not,
-        but call this link 'Home' if they are logged in,
-        and call this link 'Login / Register' if they are not */}
-        {props.user.id ? 'Home' : 'Login / Register'}
-      </Link>
-      {/* Show the link to the info page and the logout button if the user is logged in */}
-      {props.user.id && (
-        <>
-          <Link className="nav-link" to="/info">
-            Info Page
-          </Link>
-          <LogOutButton className="nav-link"/>
-        </>
-      )}
-      {/* Always show this link since the about page is not protected */}
+      {/* <ExpansionPanel 
+      expanded={this.state.expanded} 
+      onChange={this.handleExpand} 
+      >
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                        style={{backgroundColor:'black', color: 'red',}}
+                        >
+                             Menu 
+                        </ExpansionPanelSummary>
+                        <ExpansionPanelDetails>
+                        <Table>
+                            <TableBody>
+                            <TableRow>
+                            <Link className="nav-link" to="/food">
+                                <TableCell style={{backgroundColor:'black', color: 'red',}}>Dine</TableCell>
+                            </Link>
+                            </TableRow>                               
+                            <TableRow>
+                            <Link className="nav-link" to="/drinks">
+                                <TableCell style={{backgroundColor:'black', color: 'red',}}>Drinks</TableCell>
+                            </Link>
+                                </TableRow>
+                            <TableRow>
+                            <Link className="nav-link" to="/happy">
+                                <TableCell style={{backgroundColor:'black', color: 'red',}}>Happy Hours</TableCell>
+                            </Link>
+                            </TableRow>
+                            </TableBody>
+                            </Table>
+                            </ExpansionPanelDetails>
+                        </ExpansionPanel> */}
+                 
+      {/* <div className="dropdown" id="nav">
+        <Link className="nav-link">Menu</Link>
+          <div className="dropdown-content">
+            <Link className="nav-link" to="/food">Dine</Link>
+            <Link className="nav-link" to="/drinks">Drinks</Link>
+            <Link className="nav-link" to="/happy">Happy Hours</Link>
+            </div>
+      </div> */}
+      
+      
+<div className="dropdown" id="dropdown">
+<Link className="nav-link-none">
+</Link>
+<Link className="nav-link">Menu</Link>
+<div className="dropdown-content">
+<Link className="nav-link" to="/food">Dine</Link>
+<Link className="nav-link" to="/drinks">Drinks</Link>
+<Link className="nav-link" to="/happy">Happy Hours</Link>
+</div>
+</div>
+
+
       <Link className="nav-link" to="/about">
-        About
+      About
       </Link>
+      <Link className="nav-link" to="/photo">
+      Gallary
+      </Link>
+      <Link className="nav-link" to="/private">
+      Private Events
+      </Link>
+      <a href="javascript:void(0);" className="icon" onClick={this.myFunction}>
+      <i className="fa fa-bars"></i>
+      </a>
     </div>
   </div>
-);
+  
+  </MuiThemeProvider>
+
+  );
+}
+};
 
 // Instead of taking everything from state, we just want the user
 // object to determine if they are logged in

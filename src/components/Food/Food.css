@@ -1,0 +1,131 @@
+.tacos {
+    /* margin-left: 123px; */
+}
+
+.T1 {
+	/* float: left; */
+	/* width: 900px; */
+	width: auto;
+	padding: 15px;
+	font-size: 16px;
+}
+
+.T2 {
+	/* float: right; */
+	width: 900px;
+}
+
+ul.leaders {
+	padding: 15px;
+	/* color: white !important; */
+
+}
+
+ul.leaders li {
+	display: table;
+	/* color: white !important; */
+
+}
+
+ul.leaders li span {
+	display: table-cell;
+	/* color: white !important; */
+
+}
+
+ul.leaders li span:first-child {
+  position: relative;
+	overflow: hidden;            /* Don't go underneath the price */
+	/* color: white !important; */
+
+}
+
+ul.leaders li span:first-child:after { /* dashes */
+	/* color: white !important; */
+	content: "";
+	position: absolute;
+	bottom: 0.5em;       /* Set as you want */       
+	margin-left: 0.5em;       /* Keep same for the next span's left padding */
+	width: 100%;
+	border-bottom: 1px dashed white;
+}
+
+ul.leaders li span + span {
+	/* color: white !important; */
+
+	text-align: right;
+	width: 1%;          /* Trick it */
+	vertical-align: bottom;      /* Keep Price text bottom-aligned */
+	padding-left: 0.5em;
+}
+
+p:last-child {
+	/* color: white !important; */
+
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+
+.grid-item img {
+	vertical-align: middle;
+}
+
+/* .flexbox {
+	font-family: 'Courgette', cursive;
+	display: -ms-flexbox; 
+	display: flex;
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap;
+	padding: 0 4px;
+} */
+
+.grid-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 265%;
+	height: 136px;
+	/* width: 886px; */
+	width: auto;
+	text-align: center;
+
+
+	/* background: url('../images/A1.jpg') no-repeat center center fixed;
+    background-size: cover; */
+
+}
+
+
+.taco-grid-container {
+	/* grid-template-columns: auto auto auto auto; */
+	/* grid-gap: 10px;
+	padding: 10px; */
+	/* background: url('../images/A1.jpg') no-repeat center center fixed; */
+	background-image: url('../Food/A1.jpg');
+	/* background-size: fit; */
+	/* max-width: 100%;  */
+	/* background-size: 100% 100% */
+}
+
+/* h2 {
+    margin-top: -80px;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+	margin-left: 343px;
+} */
+
+.wine {
+    border-bottom: none;
+    border-right: none;
+	margin-left: 0.3%;
+	float: left;
+	border-right: groove;
+	/* padding: 5px; */
+}
+
+li {
+	padding: 5px;
+}

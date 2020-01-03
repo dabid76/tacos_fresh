@@ -1,0 +1,9 @@
+.drink-grid-container {
+	/* grid-template-columns: auto auto auto auto; */
+	/* grid-gap: 10px;
+	padding: 10px; */
+	/* background: url('../images/A1.jpg') no-repeat center center fixed; */
+	background: url('../Drinks/drink3.jpg');
+	/* background-size: cover; */
+    background-size: 228px 144px;
+}

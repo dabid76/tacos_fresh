@@ -1,3 +1,20 @@
 footer {
-    margin-top: 80px;
+    /* margin-top: 70px; */
+    /* margin-left: 123px; */
+    /* position: sticky; */
+    /* position: absolute; */
+    bottom: 5px;
+    height: 20px;
+    padding-top: 20px;
+    color: white;
+    /* width: 100%; */
 }
+
+.contact {
+    border-top: 6px solid red;
+    width: auto;
+    clear: both;
+
+  }
+
+

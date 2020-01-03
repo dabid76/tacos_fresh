@@ -1,0 +1,15 @@
+.happy-grid-container {
+    background-image: url('../Happy/drink2.jpg');
+    background-size: 457px 144px;
+    /* background-size: 916px 143px; */
+	/* background-size: cover; */
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    padding: 5px;
+    text-decoration: underline;
+}
