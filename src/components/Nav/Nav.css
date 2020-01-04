@@ -111,20 +111,22 @@
       min-width: 150px;
       text-align: center;
     }
-    /* .dropdown-content {
-      flex-direction: column;
-      text-align: right;
+    .nav {
+      display: flex;
     }
-    .dropdown-content button {
+    .dropdown-content {
+      position: inherit;
+    }
+    /* .dropdown-content button {
       margin: 8px 0 9px;
       min-width: 150px;
       text-align: center;
-    }
-    .dropdown {
+    } */
+    /* .dropdown {
       flex-direction: column;
       text-align: right;
-    }
-    .dropdown {
+    } */
+    /* .dropdown {
       margin: 8px 0 9px;
       min-width: 150px;
       text-align: center;
@@ -158,6 +160,9 @@
       float: none;
       display: block;
       /* text-align: center; */
+    }
+    .dropdown-content {
+      position: inherit !important;
     }
     /* .dropdown.responsive .icon {
       position: absolute;
