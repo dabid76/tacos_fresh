@@ -11,10 +11,11 @@ footer {
 }
 
 .contact {
-    border-top: 6px solid red;
+    /* border-top: 6px solid red; */
     width: auto;
     clear: both;
-
+    text-align: center;
+    font-size: 15px;
   }
 
 

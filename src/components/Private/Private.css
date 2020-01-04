@@ -25,6 +25,8 @@
         border: dashed;
         padding: 2%;
         border-color: chartreuse;
+        /* color: black;
+        background-color: white; */
         }
   }
   
@@ -35,6 +37,8 @@
         border: dashed;
         padding: 2%;
         border-color: chartreuse;
+        /* color: black;
+        background-color: white; */
     }
     .picOne {
         width: 100%;

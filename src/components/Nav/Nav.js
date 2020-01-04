@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './Nav.css';
-import logo from '../Nav/logo.jpg'
+import logo from '../Nav/logoCopy.png'
 
 
 // import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -59,7 +59,10 @@ render () {
 
   <div className="nav" id="nav">
     <Link to="/home">
-    <img src={logo} height='50px' width='50px' position='fixed' />
+    <img src={logo} 
+    height='120px' 
+    width='190px' 
+    position='fixed' />
     </Link>
     <div className="nav-right">
       {/* <ExpansionPanel 
@@ -129,7 +132,7 @@ render () {
       Private Events
       </Link>
       <a href="javascript:void(0);" className="icon" onClick={this.myFunction}>
-      <i className="fa fa-bars"></i>
+      <b className="fa fa-bars"></b>
       </a>
     </div>
   </div>

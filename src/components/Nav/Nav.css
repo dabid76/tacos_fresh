@@ -14,15 +14,18 @@
   }
   
   .nav-link {
-    color: #fc0909;
+    /* color: #fc0909; */
+    color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 21px;
     cursor: pointer;
     outline:0;
-    font-family: 'Amatic SC', fantasy;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Amatic SC', fantasy; */
     /* font-family: var(--heading-family) !important; */
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 11px;
   }
   
@@ -35,9 +38,9 @@
     /* float: right; */
     display: flex;
     /* font-family: var(--heading-family) !important; */
-    margin-right: 40%;
+    /* margin-right: 49%; */
     padding: 0 0 4px 0;
-    border-bottom-width:1px;
+    border-bottom-width: 1px;
     text-transform: uppercase;
   }
   
@@ -87,7 +90,7 @@
     .dropdown {
       display: block !important;
     } */
-    i {
+    b {
       display: none !important ;
     }
   }
@@ -179,7 +182,7 @@
       /* position: relative; */
     /* margin: 0 auto; */
     color: #fc0909;
-    padding: 9px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
     text-transform: uppercase;
   }
   
