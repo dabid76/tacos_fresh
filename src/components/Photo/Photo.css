@@ -11,11 +11,11 @@
     margin: 0% 5% 0% 0%;
   }
   .image {
-    /* width: 205px; */
-    /* height: 15vh; */
-    /* margin: 10% 0% 3% 75%; */
-    height: 200px;
-    margin: 0% 0% 0% 38%;
+    width: 208px;
+    height: 18vh;
+    margin: 10% 0% 3% 75%;
+    /* height: 200px;
+    margin: 0% 0% 0% 38%; */
 
   }
 }
@@ -27,7 +27,9 @@
   }
   .image {
     /* margin: 5% 0% 3% 4%; */
-    height: 103px;
+    /* height: 103px; */
+    height: 18vh;
+    width: 33vw;
     margin: 5% 0% 6% 1%;
   }
 }
