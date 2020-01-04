@@ -36,6 +36,8 @@ class Photo extends Component {
           <div className="name" key={id} >
                   <img 
                     className="image"
+                    // height='200px' 
+                    // width='200px'
                     src={pictures.image} 
                     alt={pictures.id} 
                     onClick={() => this.handleShowDialog(pictures.id)}/>
@@ -44,12 +46,12 @@ class Photo extends Component {
 
     return (
         <div className="name">
-          <h2>
-            Photo gallery
-            <Grid container spacing={16}>
+          {/* <h2>
+            Photo gallery */}
+            <Grid container spacing={2}>
                 {pic}
             </Grid>
-          </h2>
+          {/* </h2> */}
 
         {isOpen && (
           
