@@ -16,11 +16,12 @@ class Drinks extends Component {
                     <main className="flexbox">
                     <div className="grid-item">
                         {/* <img src={drink3} alt='one' height="136px" width="300px" /> */}
-                        {/* <h2>Menu</h2> */}Drinks Menu
+                        {/* <h2>Menu</h2> */}
                     </div>
                     </main>
                     </div>
                     </div>
+                    <h1>Drinks Menu</h1>
                     <ul className="leaders">
                     <div className="T1">
                         <h3>Drinks</h3>

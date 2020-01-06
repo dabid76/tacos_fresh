@@ -16,11 +16,13 @@ class Happy extends Component {
                     <main className="flexbox">
                     <div className="grid-item">
                         {/* <img src={drink2} alt='one' height="136px" width="300px" /> */}
-                        {/* <h2>Menu</h2> */}Happy Hour
+                        {/* <h2>Menu</h2> */}
                     </div>
                     </main>
                     </div>
                     </div>
+                    <h1>Happy Hour</h1>
+                    <br/>
                     <h2>Daily Happy Hours Specials!</h2>
                     <h2>3:00 PM - 6:00 PM</h2>
                     <ul className="leaders">
