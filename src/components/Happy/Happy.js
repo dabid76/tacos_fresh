@@ -10,7 +10,7 @@ class Happy extends Component {
 
     render() {
         return (
-            <div className="tacos">
+            <div className="happy">
                 <div  className="picTacos">
                     <div className="happy-grid-container">
                     <main className="flexbox">
@@ -26,7 +26,7 @@ class Happy extends Component {
                     <h2>Daily Happy Hours Specials!</h2>
                     <h2>3:00 PM - 6:00 PM</h2>
                     <ul className="leaders">
-                    <div className="T1">
+                    <div className="happyList">
                         <h3>$2.50 Tacos (exclude sushi tacos)</h3>
                         <h3>$3 Beers</h3>
                         

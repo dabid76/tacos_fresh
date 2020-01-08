@@ -23,14 +23,13 @@ class Food extends Component {
                     <div className="taco-grid-container">
                     <main className="flexbox">
                     <div className="grid-item">
-                        {/* Main Menu */}
+                        <h1>Main Menu</h1>
                     </div>
                     </main>
                     </div>
                 </div>
-                <h1>Main Menu</h1>
                 <ul className="leaders">
-                <div className="T1">
+                <div className="tacosList">
                 <h3>Tacos</h3>
                 {this.props.reduxStore.dine.tacos.map((item) =>(
                 <>

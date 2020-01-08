@@ -3,7 +3,21 @@
 	/* grid-gap: 10px;
 	padding: 10px; */
 	/* background: url('../images/A1.jpg') no-repeat center center fixed; */
-	background: url('../Drinks/drink3.jpg');
+	/* background: url('../Drinks/drink3.jpg'); */
 	/* background-size: cover; */
     background-size: 228px 144px;
+}
+
+.drinks {
+	background: url('../Drinks/drink3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.drinkList {
+	/* float: left; */
+	/* width: 900px; */
+	width: auto;
+	padding: 15px;
+	font-size: 16px;
+	color: currentColor;
 }

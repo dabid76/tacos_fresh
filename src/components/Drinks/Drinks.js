@@ -10,7 +10,7 @@ class Drinks extends Component {
 
     render() {
         return (
-            <div className="tacos">
+            <div className="drinks">
                 <div  className="picTacos">
                     <div className="drink-grid-container">
                     <main className="flexbox">
@@ -23,7 +23,7 @@ class Drinks extends Component {
                     </div>
                     <h1>Drinks Menu</h1>
                     <ul className="leaders">
-                    <div className="T1">
+                    <div className="drinkList">
                         <h3>Drinks</h3>
                         <h4>Margaritas/Cocktails</h4>
                         <h5>$7.00 (13oz.), $9.00 (16oz.), $12.00 (24oz.)</h5>

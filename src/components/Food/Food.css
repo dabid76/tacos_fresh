@@ -1,13 +1,37 @@
 .tacos {
-    /* margin-left: 123px; */
+	/* background-image: url('../Food/A1.jpg'); */
+	background: url('../Food/5.jpg') no-repeat center center fixed;
+
+	/* filter: blur(8px);
+	-webkit-filter: blur(8px); */
+	  height: 100%; 
+  	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  
 }
 
-.T1 {
+.tacosList {
 	/* float: left; */
 	/* width: 900px; */
+
 	width: auto;
 	padding: 15px;
 	font-size: 16px;
+	color: floralwhite;
+	background-color: rgb(0,0,0, 0.4);
+
+
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: relative;
+	left: 50%;
+    transform: translate(-50%, -5%);
+	z-index: 2;
+	width: 80%;
+
+	
+
 }
 
 .T2 {
@@ -85,7 +109,7 @@ p:last-child {
 } */
 
 .grid-item {
-	border: 1px solid rgba(0, 0, 0, 0.8);
+	/* border: 1px solid rgba(0, 0, 0, 0.8); */
 	font-size: 265%;
 	height: 136px;
 	/* width: 886px; */
@@ -104,7 +128,7 @@ p:last-child {
 	/* grid-gap: 10px;
 	padding: 10px; */
 	/* background: url('../images/A1.jpg') no-repeat center center fixed; */
-	background-image: url('../Food/A1.jpg');
+	/* background-image: url('../Food/A1.jpg'); */
 	/* background-size: fit; */
 	/* max-width: 100%;  */
 	/* background-size: 100% 100% */
