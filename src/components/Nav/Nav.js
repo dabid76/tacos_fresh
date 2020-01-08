@@ -126,7 +126,7 @@ render () {
       About
       </Link>
       <Link className="nav-link" to="/photo">
-      Gallary
+      Gallery
       </Link>
       <Link className="nav-link" to="/private">
       Private Events
