@@ -16,8 +16,10 @@ h3 {
 
 .happy {
 	background: url('../Happy/drink2.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;}
 
 .happyList {
 	/* float: left; */
@@ -25,5 +27,28 @@ h3 {
 	width: auto;
 	padding: 15px;
 	font-size: 16px;
-	color: seashell;
+    color: seashell;
+    
+    width: auto;
+	padding: 15px;
+	font-size: 16px;
+	color: floralwhite;
+	background-color: rgb(0,0,0, 0.4);
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: relative;
+	left: 50%;
+    transform: translate(-50%, -5%);
+	z-index: 2;
+	width: 80%;
+}
+
+.hour {
+    text-align: center;
+}
+
+.daily {
+    float: right;
+    width: 90%;
+    text-align: right;
 }

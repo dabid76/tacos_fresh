@@ -1,27 +1,20 @@
 .tacos {
 	/* background-image: url('../Food/A1.jpg'); */
 	background: url('../Food/5.jpg') no-repeat center center fixed;
-
-	/* filter: blur(8px);
-	-webkit-filter: blur(8px); */
-	  height: 100%; 
-  	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	  
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .tacosList {
 	/* float: left; */
 	/* width: 900px; */
-
 	width: auto;
 	padding: 15px;
 	font-size: 16px;
 	color: floralwhite;
 	background-color: rgb(0,0,0, 0.4);
-
-
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
 	position: relative;
@@ -29,9 +22,6 @@
     transform: translate(-50%, -5%);
 	z-index: 2;
 	width: 80%;
-
-	
-
 }
 
 .T2 {

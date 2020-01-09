@@ -16,17 +16,17 @@ class Drinks extends Component {
                     <main className="flexbox">
                     <div className="grid-item">
                         {/* <img src={drink3} alt='one' height="136px" width="300px" /> */}
-                        {/* <h2>Menu</h2> */}
+                        <h1>Drinks</h1>
                     </div>
                     </main>
                     </div>
                     </div>
-                    <h1>Drinks Menu</h1>
+                    {/* <h1>Drinks Menu</h1> */}
                     <ul className="leaders">
                     <div className="drinkList">
-                        <h3>Drinks</h3>
-                        <h4>Margaritas/Cocktails</h4>
-                        <h5>$7.00 (13oz.), $9.00 (16oz.), $12.00 (24oz.)</h5>
+                        <h2>Drinks</h2>
+                        <h3>Margaritas/Cocktails</h3>
+                        <h4>$7.00 (13oz.), $9.00 (16oz.), $12.00 (24oz.)</h4>
                         
                         <li>
                             <span>House Margarita</span>
@@ -66,7 +66,7 @@ class Drinks extends Component {
                             </p>
                         </span>
 
-                        <h5>$9.00 (16oz.), $12.00 (24oz.)</h5>
+                        <h4>$9.00 (16oz.), $12.00 (24oz.)</h4>
 
                         <li>
                             <span>Green Lady Cocktail</span>
@@ -95,7 +95,7 @@ class Drinks extends Component {
                             </p>
                         </span>
 
-                        <h4>$6 Wine(per glass)</h4>
+                        <h3>$6 Wine(per glass)</h3>
 
                         <li className="wine">
                             Cabernet
@@ -144,7 +144,7 @@ class Drinks extends Component {
                         </span>
 
                         <h2>ON TAP</h2>
-                        <h5>$5.50 (16oz.), $9.00 (25oz.)</h5>
+                        <h4>$5.50 (16oz.), $9.00 (25oz.)</h4>
 
                         <li>
                             <span>Surley - Furious</span>
@@ -173,7 +173,7 @@ class Drinks extends Component {
                             </p>
                         </span>
 
-                        <h5>$4.50 (16oz.), $8.00 (25oz.)</h5>
+                        <h4>$4.50 (16oz.), $8.00 (25oz.)</h4>
 
                         <li>
                             <span>Stella Artois</span>
@@ -207,6 +207,7 @@ class Drinks extends Component {
                         <li className="wine">
                             Blue Moon
                         </li>
+                        <br/>
                     </div>
                 </ul>
             </div>
