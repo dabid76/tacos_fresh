@@ -115,6 +115,8 @@ class Drinks extends Component {
 
                         <br/>
                         <br/>
+                        <br/>
+                        <br/>
                         
                         <li>
                             <span>Stella Rose Black</span>
@@ -151,7 +153,8 @@ class Drinks extends Component {
                         </li>
                         <span>
                             <p className="description">
-                                {/* Semi-Sweet semi sparkling crisp flavor that give off delicate fresh strawberry & red berry qualities */}
+                                A blend of American hopes and Scottish malt; this delievers waves of citrus,
+                                pine & caramel-toffee. 6.6% ABV 99 IBU
                             </p>
                         </span>
 
@@ -160,7 +163,8 @@ class Drinks extends Component {
                         </li>
                         <span>
                             <p className="description">
-                                {/* Semi-Sweet semi sparkling crisp flavor that give off delicate fresh strawberry & red berry qualities */}
+                                A slight sweetness perfectly balanced by the pineapple & grapefruit hop character
+                                without beign overly bitter. 6.8% ABV 35 IBU
                             </p>
                         </span>
 
@@ -169,7 +173,8 @@ class Drinks extends Component {
                         </li>
                         <span>
                             <p className="description">
-                                {/* Semi-Sweet semi sparkling crisp flavor that give off delicate fresh strawberry & red berry qualities */}
+                                Classic Begian larger with a floral, hop aroma, well-balanced fruity malty sweetness,
+                                crisp hop bitterness & a soft dry finish. 6.4% ABV 60 IBU
                             </p>
                         </span>
 
@@ -207,6 +212,8 @@ class Drinks extends Component {
                         <li className="wine">
                             Blue Moon
                         </li>
+                        <br/>
+                        <br/>
                         <br/>
                     </div>
                 </ul>
