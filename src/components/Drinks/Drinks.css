@@ -8,13 +8,13 @@
     background-size: 228px 144px;
 }
 
-.drinks {
+/* .drinks {
 	background: url('../Drinks/drink3.jpg') no-repeat center center fixed;
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 
 .drinkList {
 	/* float: left; */
@@ -36,4 +36,27 @@
     transform: translate(-50%, -5%);
 	z-index: 2;
 	width: 80%;
+}
+
+@media screen and (max-width: 2000px) and (min-width: 600px) {
+	.drinks {
+		background: url('../Drinks/drink3.jpg') no-repeat center center fixed;
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+  
+@media screen and (max-width: 600px) and (min-width: 320px) {
+	.drink-grid-container {
+		background: url('../Drinks/drink3.jpg');
+		height: 100%; 
+		background-position: center;
+		background-repeat: no-repeat;
+
+		background-size: cover;
+		max-width: 100%; 
+		padding: 16% 0% 0% 0%;
+	}
 }
