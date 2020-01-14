@@ -161,8 +161,7 @@ h1 {
   
   @media screen and (max-width: 600px) and (min-width: 320px) {
 	.tacos {
-		/* background-image: url('../Food/A1.jpg'); */
-		background: url('../Food/5.jpg') no-repeat center center fixed;
+		background: url('../Food/5.jpg') fixed;
 		height: 100%; 
 		background-position: center;
 		background-repeat: no-repeat;
