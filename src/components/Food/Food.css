@@ -165,8 +165,8 @@ h1 {
 		height: 100%; 
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover !important;
-		background-attachment: fixed !important;
+		background-size: contain;
+		background-attachment: fixed;
 	}
   }
     
